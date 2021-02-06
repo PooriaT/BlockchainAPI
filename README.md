@@ -83,17 +83,17 @@ python manage.py runserver
 ```
 
 To **regsiter** new user: <url>/register/
-  
+
 To **Login**: <url>/api-auth/login/
-  
+
 To **logout**: <url>/api-auth/logout/
 
 To search for new cryptocurrencies blocks based on available address: <url>/address/
-  
+
 To search for new cryptocurrencies blocks based on available hash: <url>/transaction/
 
 To query your address-based searches: <url>/address/history/
-  
+
 To query your hash-based searched: <url>/transaction/history/
 
 ## Test
@@ -108,6 +108,7 @@ python manage.py test
 
 A simple document for this API was build by **Apiary**:
 https://blockchain14.docs.apiary.io/
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
