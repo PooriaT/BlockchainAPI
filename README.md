@@ -8,12 +8,15 @@ that:
 4. All views, serializers and logic must have tests (we prefer numpy)
 
 Bonus:
-a. index past searches with elastic search and have an suggestion endpoint for the search box
-b. wrap your application in docker with gunicorn and nginx server in reverse proxy
-c. make some minimal frontend for the search / search history / my addresses functionality (login is not required, we will set the access token manually in the localStorage using chrome dev tools)
 
+a. index past searches with elastic search and have an suggestion endpoint for the search box
+
+b. wrap your application in docker with gunicorn and nginx server in reverse proxy
+
+c. make some minimal frontend for the search / search history / my addresses functionality (login is not required, we will set the access token manually in the localStorage using chrome dev tools)
 There is no need to write tests for the frontend!
 d. describe your API with apiary
+
 
 ## Installation
 
@@ -61,7 +64,9 @@ https://api.bitaps.com/{currency}/v1/blockchain/
 **currency**: btc, eth, bch
 
 **Transactions**:  /transaction/{hash}
+
 **Address state**: /address/state/{address}
+
 **Address transactions**:  /address/transactions/{address}
 
 For more information, visit the below link:
@@ -78,18 +83,23 @@ python manage.py runserver
 ```
 
 To **regsiter** new user: <url>/register/
+  
 To **Login**: <url>/api-auth/login/
+  
 To **logout**: <url>/api-auth/logout/
 
 To search for new cryptocurrencies blocks based on available address: <url>/address/
+  
 To search for new cryptocurrencies blocks based on available hash: <url>/transaction/
 
 To query your address-based searches: <url>/address/history/
+  
 To query your hash-based searched: <url>/transaction/history/
 
 ## Test
 
 To run the test case, use the below command:
+
 ```bash
 python manage.py test
 ```
