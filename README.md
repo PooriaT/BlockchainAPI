@@ -94,6 +94,11 @@ To run the test case, use the below command:
 python manage.py test
 ```
 
+## Documentation
+
+A simple document for this API was build by **Apiary**:
+https://blockchain14.docs.apiary.io/
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
