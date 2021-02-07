@@ -131,8 +131,6 @@ coverage report -m
 coverage html -d <dir-name>
 ```
 
-
-
 ## Documentation
 
 A simple document for this API was build by **Apiary**:
