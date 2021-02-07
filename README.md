@@ -103,6 +103,35 @@ To run the test case, use the below command:
 ```bash
 python manage.py test
 ```
+### Coverage test
+
+To test the coverage test, first we should install below package:
+
+```bash
+pip install coverage
+```
+
+After that we can run the below command to create the coverage report:
+
+```bash
+coverage run --source='.' manage.py test paymentapi
+```
+
+After creating the report, there are two ways to show the report, one on the command line and the other is in HTML format.
+
+#### Command line report
+
+```bash
+coverage report -m
+```
+
+#### HTML report
+
+```bash
+coverage html -d <dir-name>
+```
+
+
 
 ## Documentation
 
